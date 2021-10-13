@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal{
+	background: #a566ca;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-family: arial;
+}
+
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding:10px 25px;
+	width: 100%;
+	border-radius: 15px;
+	border:none;
+}
+
+.principal .formulario input[type=text].error {
+	border: 5px solid #D32F2F;
+	color: red;
+	border-radius: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
+.principal .formulario .boton{
+	background: rgb(111, 180, 111);
+	border-radius: 10px;
+	border: green;
+	padding: 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	color:white;
+}
+
